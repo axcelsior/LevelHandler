@@ -7,15 +7,14 @@ using namespace std;
 static TextureHandler textures;
 
 
-
+// Skapar en level från en textfil
 Level::Level(string filename):
 	mFile(filename){
-
 	generateLevel(mFile);
 	textures.Initialize();
-
 }
 
+// Renderar level
 void Level::render(sf::RenderWindow *window){
 
 	window->clear();
@@ -31,7 +30,7 @@ void Level::render(sf::RenderWindow *window){
 		
 }
 
-
+// Laddar in leveln från sparfilen
 void Level::generateLevel(string name){
 
 	ifstream inputFile("Maps/" + name + ".txt");

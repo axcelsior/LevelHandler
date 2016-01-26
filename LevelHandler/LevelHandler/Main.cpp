@@ -27,17 +27,17 @@ int main(){
 			}
 			if (event.type == sf::Event::KeyPressed)
 			{
-				if (event.key.code == sf::Keyboard::N)
+				if (event.key.code == sf::Keyboard::Q)
 				{
 					levelM.nextLevel();
 				}
-				if (event.key.code == sf::Keyboard::S)
+				if (event.key.code == sf::Keyboard::W)
 				{
 					levelM.changeLevel(4);
 				}
-				if (event.key.code == sf::Keyboard::W)
+				if (event.key.code == sf::Keyboard::E)
 				{
-					levelM.changeLevel(1);
+					levelM.changeLevel(0);
 				}
 			}
 		}
