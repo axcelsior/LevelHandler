@@ -1,0 +1,2 @@
+# LevelHandler
+Hanterar Levelobjekt.
