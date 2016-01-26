@@ -1,0 +1,19 @@
+﻿Build started 2016-01-26 12:44:46.
+     1>Project "\\hsnas6\studenthome\2015\a15axeka\documents\visual studio 2013\Projects\LevelHandler\LevelHandler\LevelHandler.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"\\hsnas6\StudentHome\2015\a15axeka\Downloads\SFML-2.3.2-windows-vc12-32-bit\SFML-2.3.2\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt LevelManager.cpp
+         LevelManager.cpp
+     1>\\hsnas6\studenthome\2015\a15axeka\documents\visual studio 2013\projects\levelhandler\levelhandler\levelmanager.cpp(33): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"\\hsnas6\studenthome\2015\a15axeka\documents\visual studio 2013\Projects\LevelHandler\Debug\LevelHandler.exe" /INCREMENTAL /NOLOGO /LIBPATH:"\\hsnas6\StudentHome\2015\a15axeka\Downloads\SFML-2.3.2-windows-vc12-32-bit\SFML-2.3.2\lib" "sfml-system-d.lib" "sfml-window-d.lib" "sfml-graphics-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"\\hsnas6\studenthome\2015\a15axeka\documents\visual studio 2013\Projects\LevelHandler\Debug\LevelHandler.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"\\hsnas6\studenthome\2015\a15axeka\documents\visual studio 2013\Projects\LevelHandler\Debug\LevelHandler.lib" /MACHINE:X86 Debug\Entity.obj
+         Debug\Level.obj
+         Debug\LevelManager.obj
+         Debug\Main.obj
+         Debug\TextureHandler.obj
+         Debug\Tile.obj
+         LevelHandler.vcxproj -> \\hsnas6\studenthome\2015\a15axeka\documents\visual studio 2013\Projects\LevelHandler\Debug\LevelHandler.exe
+     1>Done Building Project "\\hsnas6\studenthome\2015\a15axeka\documents\visual studio 2013\Projects\LevelHandler\LevelHandler\LevelHandler.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.24
